@@ -1,6 +1,6 @@
 //Gibt Summe der Werte eines int-Arrays zurück
 
-public static int summe(int x[])
+public static int arraySum(int x[])
 {
 	//Initialisierung der Summenvariable
 	int sum = 0;
