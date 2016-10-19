@@ -1,4 +1,4 @@
-
+//Von Mitarbeiter erbende Klasse Arzt mit zus√§tzlichen Attributen und angepasster Anrede 
 public class Arzt extends Mitarbeiter 
 {
 	public int buerozimmernummer;
@@ -17,9 +17,9 @@ public class Arzt extends Mitarbeiter
 		if (geschlecht) 
 		{
 			if (rang == 0) { return vorname + " " + nachname + " (AIP)";}
-			if (rang == 1) { return "Fach‰rztin" + vorname + " " + nachname;}
-			if (rang == 2) { return "Ober‰rztin" + vorname + " " + nachname;}
-			if (rang == 3) { return "Chef‰rztin" + vorname + " " + nachname;}
+			if (rang == 1) { return "Fach√§rztin" + vorname + " " + nachname;}
+			if (rang == 2) { return "Ober√§rztin" + vorname + " " + nachname;}
+			if (rang == 3) { return "Chef√§rztin" + vorname + " " + nachname;}
 			
 		}
 		else 
