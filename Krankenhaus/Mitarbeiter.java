@@ -2,8 +2,8 @@
 //und einer Methode zum vergleichen von Gehältern
 public class Mitarbeiter extends Person
 {
-  public int personalnummer;
-  public int gehalt;
+	public int personalnummer;
+	public int gehalt;
     
 	public Mitarbeiter (String nachname, String vorname, boolean geschlecht, int personalnummer, int gehalt) 
 	{
