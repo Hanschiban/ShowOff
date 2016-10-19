@@ -1,4 +1,4 @@
-//Von Kunde erbende Klasse zur weiteren Unterscheidung
+//Von Kunde erbende Klasse zur weiteren Unterscheidung zur Bezahlung
 public class GesetzlichVersicherter extends Kunde 
 {
 	String krankenkasse;
