@@ -10,11 +10,12 @@ public class Personenliste
 	public Personenliste ()
 	{
 		anzahl = 0;
-		personen = new Person[1000];
+		personen = new Person[1000]; // Begrenzung auf max 1000 Personen
 		anwesend = new boolean[1000];
 	}
 	
-	public void hinzuf�gen (Person x)
+	//Hinzufügeneiner Person solange max nicht erreicht ist und setzen der Initialwerte
+	public void hinzufügen (Person x)
 	{
 		if (anzahl < 1000)
 		{
@@ -24,6 +25,8 @@ public class Personenliste
 		}
 	}
 	
+	//Finden einer Person basierend auf Vor- und Nachname durch Iteration
+	//Gibt Position der Person im Array oder falls nicht Vorhanden -1 zurück
 	public int find(Person x)
 	{
 		for(int y = 0; y < anzahl; y++)
@@ -36,6 +39,7 @@ public class Personenliste
 		return -1;
 	}
 	
+	//Löschen einer Person und setzen dadurch veränderter Werte
 	public void entfernen (Person x)
 	{
 		int index = find(x);
@@ -58,6 +62,7 @@ public class Personenliste
 		}
 	}
 	
+	//Setzt den Status einer Person auf Anwesend
 	public void kommt (Person x)
 	{
 		int index = find(x);
@@ -67,6 +72,7 @@ public class Personenliste
 		}
 	}
 	
+	//Setzt den Status einer Person auf Abwesend
 	public void geht (Person x)
 	{
 		int index = find(x);
@@ -76,6 +82,7 @@ public class Personenliste
 		}
 	}
 	
+	//Ähnlich wie find nur das Speziell nach einem Arztobjekt gesucht wird
 	public Arzt findeArzt (String vorname,String nachname)
 	{
 		for(int y = 0; y < anzahl; y++)
