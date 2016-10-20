@@ -1,5 +1,5 @@
 # Übersicht
-In diesem Repository finden SIe eine kleine Zusammenstellung,
+In diesem Repository finden Sie eine kleine Zusammenstellung,
 der Programme, die ich während meines Studiums geschrieben habe.
 
 Zum einen sind dies Beispiele zu Algorithmischen Problemen
