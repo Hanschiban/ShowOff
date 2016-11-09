@@ -16,12 +16,12 @@ public class Person
 	public String anrede () 
 	{
 		if (geschlecht)
-    {
-      return "Frau" + vorname + " " + nachname;
-    }
+		{
+			return "Frau" + vorname + " " + nachname;
+		}
 		else 
-    {
-      return "Herr" + vorname + " " + nachname;
-    }
+		{
+			return "Herr" + vorname + " " + nachname;
+		}
 	}
 }
